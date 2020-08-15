@@ -1,0 +1,39 @@
+body{
+    background:;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.outer{
+    width:400px;
+    margin:auto;
+    height:auto;
+    background: rgb(83, 78, 78);
+    padding:15px;
+}
+input[type=text]{
+   width:100%;
+   padding: 10px;
+   font-size:22px;
+   font-weight: bold;
+   margin-top: 20px;
+    border-radius: 5px;
+
+}
+input[type=button]{
+    width:88px;
+    padding:10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+}
+#del{
+    width:100%;
+}
+#total{
+    background: red;
+}

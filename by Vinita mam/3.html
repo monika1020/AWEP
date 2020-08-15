@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="3.js"></script>
+    <style>
+        .nav-bar {
+
+            background: aquamarine;
+            padding: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <ul style="display: flex;list-style-type: none;
+        justify-content: space-between;">
+            <li>Home</li>
+            <li>About</li>
+            <li>Sign in</li>
+        </ul>
+    </div><br><br>
+    <div>
+        <input type="text" id="inp" placeholder="type here">
+        <button onclick="comment()">Comment</button><br>
+
+    </div><br>
+    <div>
+        <button id="like" onclick="like()">Like1</button>
+        <button id="dislike" onclick="dislike()">Dislike</button>
+    </div>
+    <!-----to clone -->
+    <div id="commentDiv">
+        <div id="placecomment">Place the value</div>
+    </div>
+</body>
+
+</html>
